@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto:wght@400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 13vh;
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-part-2{
+    display: flex;
+    gap: 20px;
+    font-size: 1.3vw;
+    
+}
+.nav h3{
+    font-size: 2.5vw;
+    font-weight: 800;
+    cursor: pointer;
+}
+.nav-part-2 h4{
+    font-weight: 600;
+    padding-left: 12px;
+    left: 150px;
+    position: relative;
+    cursor: pointer;
+   
+}
+.nav-part-2 h4::after{
+    content: '';
+height: 3px;
+width: 0%;
+background-color: #FF735C;
+position: absolute;
+bottom: 0;
+left: 10%;
+/* right: 0; */
+transition: all ease-in-out 0.5s;
+}
+.nav-part-2 h4:hover::after{
+    width: 100%;
+}
+.main{
+    height: 86.5vh;
+    /* background-color: red; */
+    display: flex;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+   
+}
+.left{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(66, 0, 3); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px ;
+}
+.text h2{
+    font-size: 4.5vw;
+    margin-bottom: 20px;
+    font-family: roboto;
+    font-weight: 800;
+}
+.text p{
+    font-size: 1.2vw;
+    width: 50vw;
+    margin-bottom: 20px;
+   
+}
+.text span{
+    color: #FF735C;
+}
+.text button{
+    padding: 1.4vh 1.4vw ;
+    background-color: #FF735C;
+    color: rgb(236, 236, 236);
+    font-weight: 700;
+    border: 2px solid #d16656;
+    border-radius: 3px;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+    
+}
+.text button:hover{
+    color: #000;
+        background-color: transparent;
+    
+    }
+.right img {
+    margin-top: 35px;
+}
+
+.nav button{
+    padding: 1.4vh 1.4vw ;
+    background-color: #FF735C;
+    color: rgb(236, 236, 236);
+    font-weight: 700;
+    border: 2px solid #d16656;
+    border-radius: 3px;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+    
+}
+
+.nav button:hover{
+color: #000;
+    background-color: transparent;
+
+}
